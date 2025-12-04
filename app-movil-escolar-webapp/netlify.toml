@@ -1,0 +1,9 @@
+[build]
+  # Esta es la ruta que manda:
+  publish = "dist/app-movil-escolar-webapp"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

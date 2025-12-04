@@ -41,8 +41,9 @@ MIDDLEWARE = [
 
 # Configuración de CORS: define orígenes permitidos y quita CORS_ORIGIN_ALLOW_ALL
 CORS_ALLOWED_ORIGINS = [
-    '*',
+    'https://app-movil-escolar-webapp-ahm.netlify.app',
 ]
+
 CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'app_movil_escolar_api.urls'

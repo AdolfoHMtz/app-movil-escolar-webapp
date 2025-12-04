@@ -93,7 +93,7 @@
 
       <mat-form-field class="mat-input" appearance="outline">
         <mat-label>Descripción</mat-label>
-        <textarea matInput [(ngModel)]="evento.descripcion" placeholder="Escribe una descripción del evento" maxlength="300"></textarea>
+        <textarea matInput [(ngModel)]="evento.descripcion" placeholder="Escribe una descripción del evento" (keypress)="soloLetrasNumeros($event)" maxlength="300"></textarea>
         <mat-hint align="end">{{evento.descripcion?.length || 0}}/300</mat-hint>
       </mat-form-field>
       <div *ngIf="errors.descripcion" class="invalid-feedback">{{ errors.descripcion }}</div>

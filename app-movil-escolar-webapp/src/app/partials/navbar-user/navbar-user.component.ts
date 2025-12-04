@@ -113,7 +113,6 @@ export class NavbarUserComponent implements OnInit {
   }
 
   logout() {
-    // TODO: Después modificar el servicio de logout para que limpie la sesión en el backend
     this.facadeService.logout().subscribe(
       () => {
         this.facadeService.destroyUser();

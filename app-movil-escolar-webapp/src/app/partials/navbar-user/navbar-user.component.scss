@@ -379,9 +379,6 @@
   padding: 1rem 1.2rem;
 }
 
-// =====================
-// DROPDOWN STYLES
-// =====================
 .scoop-navbar-item.dropdown-parent {
   flex-direction: column;
   align-items: stretch;
@@ -428,6 +425,8 @@
   border-radius: 8px;
   overflow: hidden;
 }
+
+
 
 .scoop-navbar-subitem {
   display: flex;

@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-image: url('/assets/images/fondo-azul.jpg');
   background-position: center;
   background-size: cover;
@@ -15,7 +15,8 @@
 
 /* Sección de registro */
 .section-registro {
-  width: min(100%, 980px);
+  width: 100%;
+  max-width: 700px;
   margin-inline: auto;
   height: 100%;
   display: flex;
@@ -78,6 +79,11 @@ mat-form-field {
   margin-left: 5%;
   height: 48px !important;
   text-align: left !important;
+}
+
+/* Excepción para textarea - permitir altura automática */
+mat-form-field:has(textarea) {
+  height: auto !important;
 }
 
 /* Sección de botones */

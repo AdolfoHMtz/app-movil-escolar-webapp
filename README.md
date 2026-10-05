@@ -2,6 +2,12 @@
 
 Sistema web de **gestión académica** para la materia *Desarrollo de Aplicaciones Móviles*. Permite administrar **administradores, maestros y alumnos**, registrar **eventos académicos** y consultar **gráficas** con estadísticas.
 
+<p align="center">
+  <a href="https://app-movil-escolar-webapp-ahm.netlify.app" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Abrir%20app%20en%20vivo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Abrir en Netlify" />
+  </a>
+</p>
+
 ![Angular](https://img.shields.io/badge/Angular-16-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Angular Material](https://img.shields.io/badge/Angular_Material-757575?style=flat-square&logo=angular&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
